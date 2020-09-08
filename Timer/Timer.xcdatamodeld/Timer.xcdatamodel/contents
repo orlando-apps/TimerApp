@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G1212" minimumToolsVersion="Automatic">
+    <entity name="Times" syncable="YES">
+        <attribute name="orderingValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="timeCollection" optional="YES" attributeType="Transformable" valueTransformerName="TimeDataTransformer" syncable="YES"/>
+        <attribute name="timerName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Times" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>

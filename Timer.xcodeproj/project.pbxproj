@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		556B9CAB1E448ACF009A3BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B9CAA1E448ACF009A3BBC /* main.m */; };
+		556B9CAE1E448ACF009A3BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B9CAD1E448ACF009A3BBC /* AppDelegate.m */; };
+		556B9CB41E448ACF009A3BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556B9CB21E448ACF009A3BBC /* Main.storyboard */; };
+		556B9CB71E448ACF009A3BBC /* Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 556B9CB51E448ACF009A3BBC /* Timer.xcdatamodeld */; };
+		556B9CB91E448ACF009A3BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556B9CB81E448ACF009A3BBC /* Assets.xcassets */; };
+		556B9CBC1E448ACF009A3BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556B9CBA1E448ACF009A3BBC /* LaunchScreen.storyboard */; };
+		556B9CC71E448AD0009A3BBC /* TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B9CC61E448AD0009A3BBC /* TimerTests.m */; };
+		556B9CD21E448AD0009A3BBC /* TimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B9CD11E448AD0009A3BBC /* TimerUITests.m */; };
+		556B9CE11E449577009A3BBC /* AllTimersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B9CE01E449577009A3BBC /* AllTimersTableViewController.m */; };
+		556B9CEA1E449B8B009A3BBC /* TimerTypesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B9CE91E449B8B009A3BBC /* TimerTypesTableViewController.m */; };
+		556B9CED1E449C0D009A3BBC /* AddStepTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B9CEC1E449C0D009A3BBC /* AddStepTableViewController.m */; };
+		556B9CF01E44B068009A3BBC /* CustomUIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B9CEF1E44B068009A3BBC /* CustomUIDatePicker.m */; };
+		557698401E5B2E8200A09748 /* SoundTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576983F1E5B2E8200A09748 /* SoundTableViewController.m */; };
+		557698421E5B320200A09748 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557698411E5B320200A09748 /* AudioToolbox.framework */; };
+		557698451E5D554C00A09748 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 557698441E5D554C00A09748 /* SettingsTableViewController.m */; };
+		5576988B1E5F345600A09748 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 557698721E5F345600A09748 /* Chameleon_.m */; };
+		5576988C1E5F345600A09748 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 557698741E5F345600A09748 /* ChameleonConstants.m */; };
+		5576988D1E5F345600A09748 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 557698781E5F345600A09748 /* NSArray+Chameleon.m */; };
+		5576988E1E5F345600A09748 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576987A1E5F345600A09748 /* UIAppearance+Swift.m */; };
+		5576988F1E5F345600A09748 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576987C1E5F345600A09748 /* UIButton+Chameleon.m */; };
+		557698901E5F345600A09748 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576987E1E5F345600A09748 /* UIColor+Chameleon.m */; };
+		557698911E5F345600A09748 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 557698801E5F345600A09748 /* UIColor+ChameleonPrivate.m */; };
+		557698921E5F345600A09748 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 557698821E5F345600A09748 /* UIImage+ChameleonPrivate.m */; };
+		557698931E5F345600A09748 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 557698841E5F345600A09748 /* UILabel+Chameleon.m */; };
+		557698941E5F345600A09748 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 557698861E5F345600A09748 /* UINavigationController+Chameleon.m */; };
+		557698951E5F345600A09748 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 557698881E5F345600A09748 /* UIView+ChameleonPrivate.m */; };
+		557698961E5F345600A09748 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576988A1E5F345600A09748 /* UIViewController+Chameleon.m */; };
+		557C13DB1E49C3FE00C88BF1 /* AddMultiStepTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 557C13DA1E49C3FE00C88BF1 /* AddMultiStepTableViewController.m */; };
+		558B321F1E518D7C009DEF40 /* TimeDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 558B321E1E518D7C009DEF40 /* TimeDataTransformer.m */; };
+		558B32231E51D285009DEF40 /* AllTimersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 558B32211E51D285009DEF40 /* AllTimersTableViewCell.m */; };
+		558B32241E51D285009DEF40 /* AllTimersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558B32221E51D285009DEF40 /* AllTimersTableViewCell.xib */; };
+		55EDC1131E59B0B3003CAFD5 /* EditButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EDC1121E59B0B3003CAFD5 /* EditButton.m */; };
+		55F729751E633D3B00D2AD10 /* CustomHeaderFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F729741E633D3B00D2AD10 /* CustomHeaderFooter.xib */; };
+		78A418EB210717550074991E /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A418EA210717550074991E /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		556B9CC31E448ACF009A3BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556B9C9E1E448ACF009A3BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556B9CA51E448ACF009A3BBC;
+			remoteInfo = Timer;
+		};
+		556B9CCE1E448AD0009A3BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556B9C9E1E448ACF009A3BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556B9CA51E448ACF009A3BBC;
+			remoteInfo = Timer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		556B9CA61E448ACF009A3BBC /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		556B9CAA1E448ACF009A3BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		556B9CAC1E448ACF009A3BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		556B9CAD1E448ACF009A3BBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		556B9CB31E448ACF009A3BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		556B9CB61E448ACF009A3BBC /* Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Timer.xcdatamodel; sourceTree = "<group>"; };
+		556B9CB81E448ACF009A3BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		556B9CBB1E448ACF009A3BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		556B9CBD1E448ACF009A3BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556B9CC21E448ACF009A3BBC /* TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		556B9CC61E448AD0009A3BBC /* TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTests.m; sourceTree = "<group>"; };
+		556B9CC81E448AD0009A3BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556B9CCD1E448AD0009A3BBC /* TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		556B9CD11E448AD0009A3BBC /* TimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerUITests.m; sourceTree = "<group>"; };
+		556B9CD31E448AD0009A3BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556B9CDF1E449577009A3BBC /* AllTimersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTimersTableViewController.h; sourceTree = "<group>"; };
+		556B9CE01E449577009A3BBC /* AllTimersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTimersTableViewController.m; sourceTree = "<group>"; };
+		556B9CE81E449B8B009A3BBC /* TimerTypesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerTypesTableViewController.h; sourceTree = "<group>"; };
+		556B9CE91E449B8B009A3BBC /* TimerTypesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerTypesTableViewController.m; sourceTree = "<group>"; };
+		556B9CEB1E449C0D009A3BBC /* AddStepTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddStepTableViewController.h; sourceTree = "<group>"; };
+		556B9CEC1E449C0D009A3BBC /* AddStepTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStepTableViewController.m; sourceTree = "<group>"; };
+		556B9CEE1E44B068009A3BBC /* CustomUIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomUIDatePicker.h; path = ../CustomUIDatePicker.h; sourceTree = "<group>"; };
+		556B9CEF1E44B068009A3BBC /* CustomUIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomUIDatePicker.m; path = ../CustomUIDatePicker.m; sourceTree = "<group>"; };
+		5576983E1E5B2E8200A09748 /* SoundTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTableViewController.h; sourceTree = "<group>"; };
+		5576983F1E5B2E8200A09748 /* SoundTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTableViewController.m; sourceTree = "<group>"; };
+		557698411E5B320200A09748 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		557698431E5D554C00A09748 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		557698441E5D554C00A09748 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		557698701E5F345600A09748 /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		557698711E5F345600A09748 /* Chameleon_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon_.h; sourceTree = "<group>"; };
+		557698721E5F345600A09748 /* Chameleon_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chameleon_.m; sourceTree = "<group>"; };
+		557698731E5F345600A09748 /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonConstants.h; sourceTree = "<group>"; };
+		557698741E5F345600A09748 /* ChameleonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonConstants.m; sourceTree = "<group>"; };
+		557698751E5F345600A09748 /* ChameleonEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonEnums.h; sourceTree = "<group>"; };
+		557698761E5F345600A09748 /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		557698771E5F345600A09748 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		557698781E5F345600A09748 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		557698791E5F345600A09748 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		5576987A1E5F345600A09748 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		5576987B1E5F345600A09748 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		5576987C1E5F345600A09748 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		5576987D1E5F345600A09748 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		5576987E1E5F345600A09748 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		5576987F1E5F345600A09748 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		557698801E5F345600A09748 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		557698811E5F345600A09748 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		557698821E5F345600A09748 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		557698831E5F345600A09748 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		557698841E5F345600A09748 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		557698851E5F345600A09748 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		557698861E5F345600A09748 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		557698871E5F345600A09748 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		557698881E5F345600A09748 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		557698891E5F345600A09748 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		5576988A1E5F345600A09748 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		557C13D91E49C3FE00C88BF1 /* AddMultiStepTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMultiStepTableViewController.h; sourceTree = "<group>"; };
+		557C13DA1E49C3FE00C88BF1 /* AddMultiStepTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMultiStepTableViewController.m; sourceTree = "<group>"; };
+		558B321D1E518D7C009DEF40 /* TimeDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDataTransformer.h; sourceTree = "<group>"; };
+		558B321E1E518D7C009DEF40 /* TimeDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDataTransformer.m; sourceTree = "<group>"; };
+		558B32201E51D285009DEF40 /* AllTimersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTimersTableViewCell.h; sourceTree = "<group>"; };
+		558B32211E51D285009DEF40 /* AllTimersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTimersTableViewCell.m; sourceTree = "<group>"; };
+		558B32221E51D285009DEF40 /* AllTimersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllTimersTableViewCell.xib; sourceTree = "<group>"; };
+		55EDC1111E59B0B3003CAFD5 /* EditButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditButton.h; sourceTree = "<group>"; };
+		55EDC1121E59B0B3003CAFD5 /* EditButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditButton.m; sourceTree = "<group>"; };
+		55F729741E633D3B00D2AD10 /* CustomHeaderFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeaderFooter.xib; sourceTree = "<group>"; };
+		78A418EA210717550074991E /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556B9CA31E448ACF009A3BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A418EB210717550074991E /* GoogleMobileAds.framework in Frameworks */,
+				557698421E5B320200A09748 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B9CBF1E448ACF009A3BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B9CCA1E448AD0009A3BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		556B9C9D1E448ACF009A3BBC = {
+			isa = PBXGroup;
+			children = (
+				78A418EA210717550074991E /* GoogleMobileAds.framework */,
+				557698411E5B320200A09748 /* AudioToolbox.framework */,
+				556B9CA81E448ACF009A3BBC /* Timer */,
+				556B9CC51E448AD0009A3BBC /* TimerTests */,
+				556B9CD01E448AD0009A3BBC /* TimerUITests */,
+				556B9CA71E448ACF009A3BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		556B9CA71E448ACF009A3BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556B9CA61E448ACF009A3BBC /* Timer.app */,
+				556B9CC21E448ACF009A3BBC /* TimerTests.xctest */,
+				556B9CCD1E448AD0009A3BBC /* TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		556B9CA81E448ACF009A3BBC /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				5576986F1E5F345600A09748 /* Objective-C */,
+				556B9CAC1E448ACF009A3BBC /* AppDelegate.h */,
+				556B9CAD1E448ACF009A3BBC /* AppDelegate.m */,
+				556B9CEE1E44B068009A3BBC /* CustomUIDatePicker.h */,
+				556B9CEF1E44B068009A3BBC /* CustomUIDatePicker.m */,
+				556B9CEB1E449C0D009A3BBC /* AddStepTableViewController.h */,
+				556B9CEC1E449C0D009A3BBC /* AddStepTableViewController.m */,
+				557C13D91E49C3FE00C88BF1 /* AddMultiStepTableViewController.h */,
+				557C13DA1E49C3FE00C88BF1 /* AddMultiStepTableViewController.m */,
+				556B9CDF1E449577009A3BBC /* AllTimersTableViewController.h */,
+				556B9CE01E449577009A3BBC /* AllTimersTableViewController.m */,
+				556B9CE81E449B8B009A3BBC /* TimerTypesTableViewController.h */,
+				556B9CE91E449B8B009A3BBC /* TimerTypesTableViewController.m */,
+				558B32201E51D285009DEF40 /* AllTimersTableViewCell.h */,
+				558B32211E51D285009DEF40 /* AllTimersTableViewCell.m */,
+				558B32221E51D285009DEF40 /* AllTimersTableViewCell.xib */,
+				557698431E5D554C00A09748 /* SettingsTableViewController.h */,
+				557698441E5D554C00A09748 /* SettingsTableViewController.m */,
+				55F729741E633D3B00D2AD10 /* CustomHeaderFooter.xib */,
+				556B9CB21E448ACF009A3BBC /* Main.storyboard */,
+				5576983E1E5B2E8200A09748 /* SoundTableViewController.h */,
+				5576983F1E5B2E8200A09748 /* SoundTableViewController.m */,
+				55EDC1111E59B0B3003CAFD5 /* EditButton.h */,
+				55EDC1121E59B0B3003CAFD5 /* EditButton.m */,
+				556B9CB81E448ACF009A3BBC /* Assets.xcassets */,
+				556B9CBA1E448ACF009A3BBC /* LaunchScreen.storyboard */,
+				556B9CBD1E448ACF009A3BBC /* Info.plist */,
+				556B9CB51E448ACF009A3BBC /* Timer.xcdatamodeld */,
+				558B321D1E518D7C009DEF40 /* TimeDataTransformer.h */,
+				558B321E1E518D7C009DEF40 /* TimeDataTransformer.m */,
+				556B9CA91E448ACF009A3BBC /* Supporting Files */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		556B9CA91E448ACF009A3BBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				556B9CAA1E448ACF009A3BBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		556B9CC51E448AD0009A3BBC /* TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				556B9CC61E448AD0009A3BBC /* TimerTests.m */,
+				556B9CC81E448AD0009A3BBC /* Info.plist */,
+			);
+			path = TimerTests;
+			sourceTree = "<group>";
+		};
+		556B9CD01E448AD0009A3BBC /* TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				556B9CD11E448AD0009A3BBC /* TimerUITests.m */,
+				556B9CD31E448AD0009A3BBC /* Info.plist */,
+			);
+			path = TimerUITests;
+			sourceTree = "<group>";
+		};
+		5576986F1E5F345600A09748 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				557698701E5F345600A09748 /* Chameleon.h */,
+				557698711E5F345600A09748 /* Chameleon_.h */,
+				557698721E5F345600A09748 /* Chameleon_.m */,
+				557698731E5F345600A09748 /* ChameleonConstants.h */,
+				557698741E5F345600A09748 /* ChameleonConstants.m */,
+				557698751E5F345600A09748 /* ChameleonEnums.h */,
+				557698761E5F345600A09748 /* ChameleonMacros.h */,
+				557698771E5F345600A09748 /* NSArray+Chameleon.h */,
+				557698781E5F345600A09748 /* NSArray+Chameleon.m */,
+				557698791E5F345600A09748 /* UIAppearance+Swift.h */,
+				5576987A1E5F345600A09748 /* UIAppearance+Swift.m */,
+				5576987B1E5F345600A09748 /* UIButton+Chameleon.h */,
+				5576987C1E5F345600A09748 /* UIButton+Chameleon.m */,
+				5576987D1E5F345600A09748 /* UIColor+Chameleon.h */,
+				5576987E1E5F345600A09748 /* UIColor+Chameleon.m */,
+				5576987F1E5F345600A09748 /* UIColor+ChameleonPrivate.h */,
+				557698801E5F345600A09748 /* UIColor+ChameleonPrivate.m */,
+				557698811E5F345600A09748 /* UIImage+ChameleonPrivate.h */,
+				557698821E5F345600A09748 /* UIImage+ChameleonPrivate.m */,
+				557698831E5F345600A09748 /* UILabel+Chameleon.h */,
+				557698841E5F345600A09748 /* UILabel+Chameleon.m */,
+				557698851E5F345600A09748 /* UINavigationController+Chameleon.h */,
+				557698861E5F345600A09748 /* UINavigationController+Chameleon.m */,
+				557698871E5F345600A09748 /* UIView+ChameleonPrivate.h */,
+				557698881E5F345600A09748 /* UIView+ChameleonPrivate.m */,
+				557698891E5F345600A09748 /* UIViewController+Chameleon.h */,
+				5576988A1E5F345600A09748 /* UIViewController+Chameleon.m */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556B9CA51E448ACF009A3BBC /* Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556B9CD61E448AD0009A3BBC /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildPhases = (
+				556B9CA21E448ACF009A3BBC /* Sources */,
+				556B9CA31E448ACF009A3BBC /* Frameworks */,
+				556B9CA41E448ACF009A3BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timer;
+			productName = Timer;
+			productReference = 556B9CA61E448ACF009A3BBC /* Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		556B9CC11E448ACF009A3BBC /* TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556B9CD91E448AD0009A3BBC /* Build configuration list for PBXNativeTarget "TimerTests" */;
+			buildPhases = (
+				556B9CBE1E448ACF009A3BBC /* Sources */,
+				556B9CBF1E448ACF009A3BBC /* Frameworks */,
+				556B9CC01E448ACF009A3BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556B9CC41E448ACF009A3BBC /* PBXTargetDependency */,
+			);
+			name = TimerTests;
+			productName = TimerTests;
+			productReference = 556B9CC21E448ACF009A3BBC /* TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		556B9CCC1E448AD0009A3BBC /* TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556B9CDC1E448AD0009A3BBC /* Build configuration list for PBXNativeTarget "TimerUITests" */;
+			buildPhases = (
+				556B9CC91E448AD0009A3BBC /* Sources */,
+				556B9CCA1E448AD0009A3BBC /* Frameworks */,
+				556B9CCB1E448AD0009A3BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556B9CCF1E448AD0009A3BBC /* PBXTargetDependency */,
+			);
+			name = TimerUITests;
+			productName = TimerUITests;
+			productReference = 556B9CCD1E448AD0009A3BBC /* TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556B9C9E1E448ACF009A3BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Consonance Group, LLC";
+				TargetAttributes = {
+					556B9CA51E448ACF009A3BBC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					556B9CC11E448ACF009A3BBC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 556B9CA51E448ACF009A3BBC;
+					};
+					556B9CCC1E448AD0009A3BBC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 556B9CA51E448ACF009A3BBC;
+					};
+				};
+			};
+			buildConfigurationList = 556B9CA11E448ACF009A3BBC /* Build configuration list for PBXProject "Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 556B9C9D1E448ACF009A3BBC;
+			productRefGroup = 556B9CA71E448ACF009A3BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556B9CA51E448ACF009A3BBC /* Timer */,
+				556B9CC11E448ACF009A3BBC /* TimerTests */,
+				556B9CCC1E448AD0009A3BBC /* TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		556B9CA41E448ACF009A3BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556B9CBC1E448ACF009A3BBC /* LaunchScreen.storyboard in Resources */,
+				556B9CB91E448ACF009A3BBC /* Assets.xcassets in Resources */,
+				556B9CB41E448ACF009A3BBC /* Main.storyboard in Resources */,
+				558B32241E51D285009DEF40 /* AllTimersTableViewCell.xib in Resources */,
+				55F729751E633D3B00D2AD10 /* CustomHeaderFooter.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B9CC01E448ACF009A3BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B9CCB1E448AD0009A3BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556B9CA21E448ACF009A3BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5576988B1E5F345600A09748 /* Chameleon_.m in Sources */,
+				5576988F1E5F345600A09748 /* UIButton+Chameleon.m in Sources */,
+				557698921E5F345600A09748 /* UIImage+ChameleonPrivate.m in Sources */,
+				557698451E5D554C00A09748 /* SettingsTableViewController.m in Sources */,
+				556B9CAE1E448ACF009A3BBC /* AppDelegate.m in Sources */,
+				557698961E5F345600A09748 /* UIViewController+Chameleon.m in Sources */,
+				556B9CAB1E448ACF009A3BBC /* main.m in Sources */,
+				557698941E5F345600A09748 /* UINavigationController+Chameleon.m in Sources */,
+				557698951E5F345600A09748 /* UIView+ChameleonPrivate.m in Sources */,
+				557C13DB1E49C3FE00C88BF1 /* AddMultiStepTableViewController.m in Sources */,
+				557698401E5B2E8200A09748 /* SoundTableViewController.m in Sources */,
+				556B9CED1E449C0D009A3BBC /* AddStepTableViewController.m in Sources */,
+				5576988D1E5F345600A09748 /* NSArray+Chameleon.m in Sources */,
+				557698911E5F345600A09748 /* UIColor+ChameleonPrivate.m in Sources */,
+				5576988C1E5F345600A09748 /* ChameleonConstants.m in Sources */,
+				55EDC1131E59B0B3003CAFD5 /* EditButton.m in Sources */,
+				556B9CEA1E449B8B009A3BBC /* TimerTypesTableViewController.m in Sources */,
+				558B321F1E518D7C009DEF40 /* TimeDataTransformer.m in Sources */,
+				557698901E5F345600A09748 /* UIColor+Chameleon.m in Sources */,
+				556B9CF01E44B068009A3BBC /* CustomUIDatePicker.m in Sources */,
+				557698931E5F345600A09748 /* UILabel+Chameleon.m in Sources */,
+				556B9CB71E448ACF009A3BBC /* Timer.xcdatamodeld in Sources */,
+				558B32231E51D285009DEF40 /* AllTimersTableViewCell.m in Sources */,
+				556B9CE11E449577009A3BBC /* AllTimersTableViewController.m in Sources */,
+				5576988E1E5F345600A09748 /* UIAppearance+Swift.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B9CBE1E448ACF009A3BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556B9CC71E448AD0009A3BBC /* TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B9CC91E448AD0009A3BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556B9CD21E448AD0009A3BBC /* TimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		556B9CC41E448ACF009A3BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556B9CA51E448ACF009A3BBC /* Timer */;
+			targetProxy = 556B9CC31E448ACF009A3BBC /* PBXContainerItemProxy */;
+		};
+		556B9CCF1E448AD0009A3BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556B9CA51E448ACF009A3BBC /* Timer */;
+			targetProxy = 556B9CCE1E448AD0009A3BBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		556B9CB21E448ACF009A3BBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556B9CB31E448ACF009A3BBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		556B9CBA1E448ACF009A3BBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556B9CBB1E448ACF009A3BBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		556B9CD41E448AD0009A3BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		556B9CD51E448AD0009A3BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		556B9CD71E448AD0009A3BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Timer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consonancegroup.Timer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		556B9CD81E448AD0009A3BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Timer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consonancegroup.Timer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		556B9CDA1E448AD0009A3BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consonancegroup.TimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer.app/Timer";
+			};
+			name = Debug;
+		};
+		556B9CDB1E448AD0009A3BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consonancegroup.TimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer.app/Timer";
+			};
+			name = Release;
+		};
+		556B9CDD1E448AD0009A3BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consonancegroup.TimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Timer;
+			};
+			name = Debug;
+		};
+		556B9CDE1E448AD0009A3BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consonancegroup.TimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Timer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556B9CA11E448ACF009A3BBC /* Build configuration list for PBXProject "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556B9CD41E448AD0009A3BBC /* Debug */,
+				556B9CD51E448AD0009A3BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556B9CD61E448AD0009A3BBC /* Build configuration list for PBXNativeTarget "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556B9CD71E448AD0009A3BBC /* Debug */,
+				556B9CD81E448AD0009A3BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556B9CD91E448AD0009A3BBC /* Build configuration list for PBXNativeTarget "TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556B9CDA1E448AD0009A3BBC /* Debug */,
+				556B9CDB1E448AD0009A3BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556B9CDC1E448AD0009A3BBC /* Build configuration list for PBXNativeTarget "TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556B9CDD1E448AD0009A3BBC /* Debug */,
+				556B9CDE1E448AD0009A3BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		556B9CB51E448ACF009A3BBC /* Timer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				556B9CB61E448ACF009A3BBC /* Timer.xcdatamodel */,
+			);
+			currentVersion = 556B9CB61E448ACF009A3BBC /* Timer.xcdatamodel */;
+			path = Timer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 556B9C9E1E448ACF009A3BBC /* Project object */;
+}
